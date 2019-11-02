@@ -39,7 +39,6 @@ _/_/_/  _/_/_/  _/    _/     _/     _/   _/  _/_/_/  _/_/_/
 		print(Fore.WHITE + Back.BLACK)
 
 		try:
-      os.system("wget https://github.com/Gameye98/Lazymux.git")
 			os.system("python2 Lazymux/lazymux.py")
 		except:
 			print(Fore.WHITE + Back.BLACK + "Failure to run command.")
