@@ -16,4 +16,9 @@ echo "Installing termuxStartPython..."
 echo "This may take a long time..."
 
 apt-get install wget
+
+wget https://raw.githubusercontent.com/TysonMcLaws/termuxStartPython/master/control.sh
+chmod +x control.sh
+echo "25% Done"
+
 wget 
