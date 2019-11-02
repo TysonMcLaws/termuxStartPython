@@ -15,5 +15,5 @@ echo "Hello, $name"
 echo "Installing termuxStartPython..."
 echo "This may take a long time..."
 
-apt-get wget
+apt-get install wget
 wget 
