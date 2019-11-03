@@ -17,8 +17,16 @@ echo "This may take a long time..."
 
 apt-get install wget
 
+echo "Installing control..."
 wget https://raw.githubusercontent.com/TysonMcLaws/termuxStartPython/master/control.sh
 chmod +x control.sh
 echo "25% Done"
+
+echo "Installing Lazymux..."
+apt-get install python2
+wget https://github.com/Gameye98/Lazymux.git
+pip2 install os
+pip2 install colorama
+echo "50% Done"
 
 wget 
