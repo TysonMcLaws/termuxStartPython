@@ -29,4 +29,16 @@ pip2 install os
 pip2 install colorama
 echo "50% Done"
 
-wget 
+echo $n Do you want to install Debian? $c
+
+if [ "`echo -n`" = "-n" ]; then
+  n=""
+  c="\c"
+else
+  n="-n"
+  c=""
+fi
+
+read name
+echo "Hello, $name"
+echo "Do you want to install a Debian Virtual Machine?" 
