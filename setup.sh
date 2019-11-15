@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/TysonMcLaws/termuxStartPython/master/cont
 chmod +x control.sh
 echo "25% Done"
 
-echo "Do you want to install Lazymux? (Y/n) "
+echo -n "Do you want to install Lazymux? (Y/n) "
 read lazymuxChoice
 if [ lazymuxChoice = "Y" ]; then
   echo "Installing Lazymux..."
@@ -25,7 +25,7 @@ if [ lazymuxChoice = "Y" ]; then
   echo "50% Done"
 fi
 
-echo "Do you want to install a Debian Virtual Machine? (Y/n) "
+echo -n "Do you want to install a Debian Virtual Machine? (Y/n) "
 read debianChoice
 if [ debianChoise = "Y" ]; then
   echo "Installing Debian Virtual Machine..."
